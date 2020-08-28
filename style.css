@@ -228,8 +228,48 @@ height: auto;
 }
 
 .section-7 {
-    margin-bottom:10% ;
+    margin-bottom:10%;
 }
+
+.top-ftr {
+    flex-direction: column;
+    height: 20%;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #131313;
+}
+ 
+.ftr-icons {
+    justify-content: center;
+    padding-bottom: 3%;
+}
+.ftr-icons i {
+    margin-right: 10%;
+    font-size: 5vh;
+    color: #E1E1E1;
+}
+
+.ftr-links {
+    padding-right: 6%;
+}
+
+
+.ftr-links a{
+    margin-left: 5%;
+    margin-right: 5;
+    color: #E1E1E1;
+}
+
+.lower-ftr {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: center;
+    background: #000000;
+    color: white;
+
+}
+
 
 
 
