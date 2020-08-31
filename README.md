@@ -11,7 +11,7 @@ This is a project to demonstrate the existing knowledge of HTML and CSS. It is a
 
 <i>Built With HTML5, CSS3, GIT, and VSCODE</i>
 
-Live Demo : https://sad-davinci-ec8c48.netlify.app/
+Live Demo : [my-text-link](https://sad-davinci-ec8c48.netlify.app/)
 
 <h1>Getting Started</h1>
 
@@ -23,12 +23,12 @@ Prerequisites Text editor,Github profile and Git.
 
 👤 Author1
 
-Github: @Lidya1234 Linkedin: https://www.linkedin.com/in/lidya-ghebreigziabher-4a94391aa/
+Github: @Lidya1234 Linkedin: [my-text-link](https://www.linkedin.com/in/lidya-ghebreigziabher-4a94391aa/)
 
 
 👤 Author2
 
-Github: @Nkuria Linkedin: https://www.linkedin.com/in/nick-kuria-a148931a9/
+Github: @Nkuria Linkedin: [my-text-link](https://www.linkedin.com/in/nick-kuria-a148931a9/)
 
 🤝 Contributing Contributions, issues and feature requests are welcome!
 
