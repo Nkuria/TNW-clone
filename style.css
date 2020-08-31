@@ -290,7 +290,7 @@ img {
 }
 
 @media screen and (min-width: 901px) and (max-width: 1220px) {
-.nav-1 {
+  .nav-1 {
     padding-left: 0;
   }
 
@@ -320,7 +320,7 @@ img {
 }
 
 @media screen and (min-width: 450px) and (max-width: 900px) {
-.nav-1 {
+  .nav-1 {
     display: none;
   }
 
@@ -410,7 +410,7 @@ img {
 }
 
 @media screen and (max-width: 450px) {
-.nav-1 {
+  .nav-1 {
     display: none;
   }
 
