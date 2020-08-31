@@ -20,6 +20,11 @@
      position: fixed;
      width: 100%;
  }
+ img {
+    max-width: 100%; 
+display:block; 
+height: auto;
+}
 
  .top-logo {
     
@@ -53,7 +58,7 @@
 .nav-2 {
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 10vh;
     padding-left: 2%;
     background-color: white;
   
@@ -92,7 +97,9 @@
     cursor: pointer;
     background-color: #9900CC;
 }
-
+.nav-2-right img{
+    display:inline;
+}
 .hamberger
 {   visibility: hidden;
     color:gray;
@@ -127,17 +134,10 @@
 }
 
 
-.sec-1-img
-{
-    max-width: 100%; 
-display:block; 
-height: auto;
-}
-
 .section-2
 {   margin:2% 6% 7% 6%;
     padding-bottom: 5%;
-    
+    font-size:90%;
     
   
 }
@@ -150,6 +150,7 @@ height: auto;
     
 
 }
+
 
 .latest-news {
     color: #ffdd33;
@@ -198,11 +199,7 @@ height: auto;
     
 }
 
-.card img {
-width: 100%; 
-display: block; 
-height: auto;
-}
+
 
 .card hr{
     color: #FF4422;
@@ -226,11 +223,7 @@ height: auto;
     justify-content: space-between;
 }
 
-.sec-4-flex1 img {
-    width: 100%; 
-display: block; 
-height: auto;
-}
+
 .h1-h5-a
 {    padding-top:5%;
     color:#FF4422;
@@ -306,14 +299,8 @@ height: auto;
 
 }
 
-@media screen and (max-width: 1150px) {
-    .no-disp{
-        display: none;
-    }
-}
 
-
-@media screen and (min-width: 768px) and (max-width: 1220px)
+@media screen and (min-width: 901px) and (max-width: 1220px)
 {
     .nav-1{
        padding-left:0;
@@ -340,10 +327,13 @@ height: auto;
 
 
 
-@media screen and (max-width: 768px)
+@media screen and (min-width: 450px) and (max-width: 900px)
 {
     .nav-1{
         display:none;
+    }
+    .nav-2{
+        height:6vh;
     }
     .nav-2-left a{
         display:none;
@@ -359,6 +349,65 @@ height: auto;
     {
         display:none;
  }
- 
+ .sec-2-grid{
+     display:flex;
+     flex-direction:column;
+     justify-content: space-around;
+     margin-right:0;
+ }
+ .sec2-media
+ {
+     display:flex;
+     flex-direction:row;
+    margin-top:5%;
+    width:100%;
+   
+ }
+
+ .flex-img
+ {
+    width:20%;
+
+ }
+ .flex-txt
+ {
+     flex:5;
+     margin-left:5%;
+     
+ }
+ .flex-txt p, h3
+ { 
+     width:100%;
+ }
+
+ .section-3-top
+ {   
+     flex-direction:column;
+     display:block;
+ }
+
+ .sec-3-top-parts
+ {   margin-top:4%;
+    flex-direction:column;
+  
+ }
+ .section-3-top-a
+ {
+    border:none;
+ }
+
+ .section-3-bottom
+ { 
+     flex-direction:column;
+ }
+ .section-4
+ {
+     flex-direction:column;
+ }
+ .section-4 img {
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+ }
 }
 
