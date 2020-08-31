@@ -3,7 +3,7 @@
 
 First CSS project of Lidya Ghebreigziabher and Nick Kuria
 
-<img src="images/Screenshot.png" alt="TNW">
+<img src="images/Screenshot.jpg" alt="TNW">
 
 Additional description about the project and its features.
 
