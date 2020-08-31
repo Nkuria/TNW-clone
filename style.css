@@ -21,6 +21,15 @@
      width: 100%;
  }
 
+ .top-logo {
+    
+ }
+
+ .float-left {
+     
+     width: 100%;
+ }
+
 .nav-1 {
     justify-content: space-between;
     height: 30px;
@@ -126,14 +135,19 @@ height: auto;
 }
 
 .section-2
-{   margin:2% 6% 2% 6%;
+{   margin:2% 6% 7% 6%;
+    padding-bottom: 5%;
+    
+    
   
 }
 .sec-2-grid
 {   padding-top:3%;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-column-gap: 1%;
+  grid-column-gap: 2%;
     grid-row-gap:8%;
+    height: auto;
+    
 
 }
 
@@ -151,6 +165,8 @@ height: auto;
 
 .section-3 {
     margin: 7% 8%;
+    max-width: 100%;
+    margin-top: 5%;
 }
 .section-3-top {
     justify-content: space-between;
@@ -179,6 +195,13 @@ height: auto;
     flex-direction: column;
     background-color: #FFFAF8;
     margin-right: 2%;
+    
+}
+
+.card img {
+width: 100%; 
+display: block; 
+height: auto;
 }
 
 .card hr{
@@ -201,6 +224,12 @@ height: auto;
 {   margin-left:3%;
     flex-direction:column;
     justify-content: space-between;
+}
+
+.sec-4-flex1 img {
+    width: 100%; 
+display: block; 
+height: auto;
 }
 .h1-h5-a
 {    padding-top:5%;
@@ -277,14 +306,27 @@ height: auto;
 
 }
 
+@media screen and (max-width: 1150px) {
+    .no-disp{
+        display: none;
+    }
+}
 
-@media screen and (min-width: 768px) and (max-width: 980px)
+
+@media screen and (min-width: 768px) and (max-width: 1220px)
 {
     .nav-1{
-       padding-left:10%;
+       padding-left:0;
     }
     .nav-2{
-        padding-left:10%
+        padding-left:0;
+    }
+    .section-1{
+        padding-top: 11%;
+    }
+
+    .section-3 {
+        flex-shrink: initial;
     }
 
   
