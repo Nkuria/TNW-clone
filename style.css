@@ -72,7 +72,9 @@ img {
 .nav-2-left a {
   color: gray;
   margin-right: 5px;
-  font-size: 2vh;
+  font-size: 2.2vh;
+  font-family: Shentox, sans-serif;
+  font-weight: bold;
 }
 
 .nav-3 a {
@@ -139,7 +141,7 @@ img {
 }
 
 .section-1 {
-  padding: 13% 0.3% 0.3%;
+  padding: 11% 0.3% 0.3%;
 }
 
 .sec-1-right {
@@ -352,11 +354,21 @@ img {
 
   .top-logo {
     display: block;
-    max-height: 20vh;
+    max-height: 7vh;
+    width: 14vw;
   }
 
   .nav-2 {
-    height: 12vh;
+    height: 7vh;
+  }
+
+  .nav-3 a {
+    text-align: center;
+  }
+
+  .nav-3 {
+    height: 10vh;
+    justify-content: center;
   }
 
   .nav-2-left a {
