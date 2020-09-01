@@ -65,7 +65,7 @@ img {
 .section-3-top a {
   padding-left: 1vw;
   padding-right: 1vw;
-  color: var(--color-orange)
+  color: var(--color-orange);
 }
 
 .nav-2-left a {
@@ -190,8 +190,8 @@ img {
 .section-3-top-a {
   border-right-style: solid;
   border-left-style: solid;
-  border-right-color: var(--color-orange)
-  border-left-color: var(--color-orange)
+  border-right-color: var(--color-orange);
+  border-left-color: var(--color-orange);
   border-left-width: 1px;
   border-right-width: 1px;
 }
@@ -207,7 +207,7 @@ img {
 }
 
 .card hr {
-  color: var(--color-orange)
+  color: var(--color-orange);
   margin-top: 5%;
 }
 
@@ -230,7 +230,7 @@ img {
 
 .h1-h5-a {
   padding-top: 5%;
-  color: var(--color-orange)
+  color: var(--color-orange);
 }
 
 .hardfork {
