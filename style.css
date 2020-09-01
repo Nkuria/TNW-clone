@@ -56,6 +56,7 @@ img {
   margin-left: 5%;
   margin-right: 5%;
   color: #e1e1e1;
+  font-size: 2vh;
 }
 
 .lists a {
@@ -277,7 +278,7 @@ img {
 .ftr-icons i {
   margin-right: 10%;
   font-size: 4vh;
-  color: #FFF;
+  color: #fff;
   background-color: rgb(44, 43, 43);
   border-radius: 49%;
   padding: 4%;
@@ -285,10 +286,6 @@ img {
 
 .ftr-links {
   padding-right: 9%;
-}
-
-.ftr-links a {
-  font-size: 2vh;
 }
 
 .lower-ftr {
