@@ -345,6 +345,10 @@ img {
     display: block;
   }
   
+  .tnw2020-2 {
+    display: none;
+  }
+
   .sec-2-grid {
     padding-top: 3%;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
