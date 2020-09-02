@@ -129,7 +129,6 @@ img {
 
 .hamberger {
   visibility: hidden;
-  color: gray;
 }
 
 .nav-3 {
@@ -227,8 +226,12 @@ img {
 }
 
 .section-4 {
-  justify-content: space-between;
-  margin: 5%;
+  padding-top: 3%;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  grid-column-gap: 2%;
+  grid-row-gap: 8%;
+  height: auto;
+  margin-bottom: 35%;
 }
 
 .sec-4-flex1 {
@@ -299,15 +302,18 @@ img {
 .lower-ftr {
   padding-top: 3%;
   padding-bottom: 3%;
-  justify-content: center;
+  padding-left: 25%;
+ 
   background: #000;
   color: white;
+  
 }
 
+
 .lower-ftr p {
-  width: 55%;
-  text-align: center;
+ text-align: center;
   font-size: 2vh;
+  display:inline;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -357,6 +363,20 @@ img {
     flex-shrink: initial;
   }
 
+  
+  .noflex
+  {
+    display:none;
+  }
+
+  .section-4{
+    padding-top: 3%;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    height: auto;
+  }
+
   .no-disp {
     display: none;
   }
@@ -400,12 +420,13 @@ img {
 
   .hamberger {
     visibility: visible;
-  }
+   }
 
   .section-1 {
     flex-direction: column;
     padding-top: 19vh;
   }
+
 
   .tnw2020-2 {
     display: none;
@@ -462,11 +483,17 @@ img {
   }
 
   .section-3-bottom {
+    margin-top:40%;
     flex-direction: column;
   }
 
-  .section-4 {
-    flex-direction: column;
+  .section-4{
+    padding-top: 3%;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    grid-column-gap: 2%;
+    grid-row-gap: 1%;
+    height: auto;
+    margin-bottom:90%;
   }
 
   .section-4 img {
@@ -474,6 +501,16 @@ img {
     display: block;
     height: auto;
   }
+
+  .section-7{
+    margin-top:30%;
+  }
+
+  .lower-ftr {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+   }
 }
 
 @media screen and (max-width: 450px) {
@@ -502,6 +539,11 @@ img {
     visibility: hidden;
   }
 
+  .nav-3 {
+    height: 10vh;
+    justify-content: center;
+  }
+
   .hamberger {
     visibility: visible;
   }
@@ -509,6 +551,11 @@ img {
   .section-1 {
     flex-direction: column;
     padding-top: 18vh;
+  }
+
+ .section-1 img
+  {
+   height:10px;
   }
 
   .tnw2020-2 {
@@ -566,11 +613,20 @@ img {
   }
 
   .section-3-bottom {
+    margin-top:60%;
     flex-direction: column;
   }
 
-  .section-4 {
-    flex-direction: column;
+  
+  .section-4{
+    padding-top: 3%;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    grid-column-gap: 2%;
+    grid-row-gap: 1%;
+    height: auto;
+    margin-bottom:100%;
+    padding-bottom:10%;
+
   }
 
   .section-4 img {
@@ -579,9 +635,19 @@ img {
     height: auto;
   }
 
+  .section-7{
+    margin-top:30%;
+  }
+
   .ftr-icons i {
     margin-right: 10%;
     font-size: 3vh;
     color: #e1e1e1;
+  }
+
+  .lower-ftr {
+    display:flex;
+   flex-direction: column;
+   align-items:center;
   }
 }
