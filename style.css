@@ -271,6 +271,14 @@ img {
   position: absolute;
   top: 10%;
   left: 3%;
+  padding-right: 4%;
+  width: 20%;
+  height: auto;
+}
+
+.card-img img {
+  width: 60%;
+  height: 60%;
 }
 
 .card-top1 {
@@ -279,7 +287,7 @@ img {
   padding-top: 4%;
   padding-bottom: 4%;
   color: white;
-  font-size: 1vw;
+  font-size: 2vh;
 }
 
 .card-top2 {
@@ -287,7 +295,7 @@ img {
   text-align: center;
   padding-top: 4%;
   padding-bottom: 4%;
-  font-size: 1vw;
+  font-size: 2vh;
 }
 
 .card hr {
@@ -465,6 +473,14 @@ img {
     justify-content: space-between;
   }
 
+  .card-top1 {
+    font-size: 2vh;
+  }
+
+  .card-top2 {
+    font-size: 2vh;
+  }
+
   .section-3-top {
     flex-direction: column;
   }
@@ -598,6 +614,14 @@ img {
   .flex-txt p,
   h3 {
     width: 100%;
+  }
+
+  .card-top1 {
+    font-size: 2vh;
+  }
+
+  .card-top2 {
+    font-size: 2vh;
   }
 
   .section-3-top {
@@ -755,6 +779,14 @@ img {
     flex-direction: column;
     display: block;
     margin-bottom: -45%;
+  }
+
+  .card-top1 {
+    font-size: 2vh;
+  }
+
+  .card-top2 {
+    font-size: 2vh;
   }
 
   .sec-3-top-parts {
