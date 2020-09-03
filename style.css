@@ -505,6 +505,10 @@ img {
     flex-direction: column;
     align-items: center;
   }
+
+  .lower-ftr p {
+    margin-right: 40%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -640,5 +644,9 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .lower-ftr p {
+    margin-right: 40%;
   }
 }
