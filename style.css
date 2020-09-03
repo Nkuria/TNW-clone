@@ -71,8 +71,8 @@ img {
 
 .nav-2-left a {
   color: gray;
-  margin-right: 5px;
-  font-size: 2.2vh;
+  margin-right: 2px;
+  font-size: 2vh;
   font-family: Shentox, sans-serif;
   font-weight: bold;
 }
@@ -92,7 +92,7 @@ img {
 .nav-2 {
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  height: 9vh;
   padding-left: 2%;
   background-color: white;
 }
@@ -144,23 +144,29 @@ img {
 }
 
 .sec-1-flex1 {
-  background-image: url("images/tnw2020-3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+  position: relative;
 }
 
 .sec-1-par {
-  font-size: 50px;
-  margin-top: 8%;
+  font-size: 5vh;
   font-weight: bolder;
   color: white;
   width: 70%;
-  padding-bottom: 2%;
+}
+
+.tnw2020-img {
+  height: 98%;
+  width: 100%;
+}
+
+.pars {
+  bottom: 10%;
+  position: absolute;
 }
 
 .sec-1-logo {
+  position: absolute;
+  top: 4%;
   width: 50%;
 }
 
@@ -377,6 +383,11 @@ img {
     display: none;
   }
 
+  .sec-1-par {
+    font-size: 3vh;
+    width: 100%;
+  }
+
   .tnw2020-2 {
     display: none;
   }
@@ -465,11 +476,16 @@ img {
 
   .section-1 {
     flex-direction: column;
-    padding-top: 0;
+    padding-top: 10%;
   }
 
   .sec-1-logo {
     display: none;
+  }
+
+  .sec-1-par {
+    font-size: 3vh;
+    width: 100%;
   }
 
   .upper-flex-sm {
@@ -545,7 +561,6 @@ img {
   }
 
   .section-3-bottom {
-    margin-top: 40%;
     flex-direction: column;
     margin-top: 5%;
   }
@@ -617,7 +632,12 @@ img {
 
   .section-1 {
     flex-direction: column;
-    padding-top: 0;
+    padding-top: 25%;
+  }
+
+  .sec-1-par {
+    width: 100%;
+    font-size: 2vh;
   }
 
   .upper-flex-sm {
@@ -648,6 +668,7 @@ img {
 
   .section-7 {
     padding-top: 25%;
+    margin-top: 30%;
   }
 
   .sec-2-grid {
@@ -712,10 +733,6 @@ img {
     max-width: 100%;
     display: block;
     height: auto;
-  }
-
-  .section-7 {
-    margin-top: 30%;
   }
 
   .ftr-icons i {
