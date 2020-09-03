@@ -263,6 +263,31 @@ img {
   margin-right: 2%;
 }
 
+.card-top {
+  position: relative;
+}
+
+.card-img {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+}
+
+.card-top1 {
+  background-color: var(--color-orange);
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  color: white;
+}
+
+.card-top2 {
+  background-color: #FFECE7;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
 .card hr {
   color: var(--color-orange);
   margin-top: 5%;
