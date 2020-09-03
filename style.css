@@ -195,7 +195,6 @@ img {
 #small-txt {
   font-size: 2vh;
   font-weight: lighter;
-
 }
 
 .lower-flex {
@@ -528,14 +527,11 @@ img {
     padding-top: 2%;
     width: 100%;
     height: 40vh;
-
   }
 
   .tnw2020-img {
     height: 40vh;
   }
-
-
 
   .tnw2020-2 {
     display: none;
@@ -681,7 +677,6 @@ img {
     padding-top: 2%;
     width: 100%;
     height: 30vh;
-
   }
 
   .tnw2020-img {
