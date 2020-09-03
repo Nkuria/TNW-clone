@@ -140,7 +140,28 @@ img {
 }
 
 .section-1 {
-  padding: 11% 0.3% 0.3%;
+  padding: 13% 0.3% 0.3%;
+}
+
+.sec-1-flex1 {
+  background-image: url("images/tnw2020-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.sec-1-par {
+  font-size: 50px;
+  margin-top: 8%;
+  font-weight: bolder;
+  color: white;
+  width: 70%;
+  padding-bottom: 2%;
+}
+
+.sec-1-logo {
+  width: 50%;
 }
 
 .sec-1-right {
@@ -158,14 +179,12 @@ img {
   width: 100%;
 }
 
-.upper-flex-sm
-{
-  display:none;
+.upper-flex-sm {
+  display: none;
 }
 
-.lower-flex-sm
-{
-  display:none;
+.lower-flex-sm {
+  display: none;
 }
 
 .section-2 {
@@ -317,6 +336,10 @@ img {
   color: white;
 }
 
+.lower-ftr img {
+  display: inline;
+}
+
 .lower-ftr p {
   text-align: center;
   font-size: 2vh;
@@ -350,6 +373,10 @@ img {
     padding-top: 17vh;
   }
 
+  .sec-1-logo {
+    display: none;
+  }
+
   .tnw2020-2 {
     display: none;
   }
@@ -367,18 +394,16 @@ img {
   }
 
   .section-3 {
-    margin-top:10%;
+    margin-top: 10%;
     justify-content: space-between;
   }
 
-  .section-3-top
-  {
-    flex-direction:column;
+  .section-3-top {
+    flex-direction: column;
   }
 
-  .sec-3-top-parts
-  { padding-top:3%;
-    
+  .sec-3-top-parts {
+    padding-top: 3%;
   }
 
   .noflex {
@@ -443,25 +468,27 @@ img {
     padding-top: 0;
   }
 
-  .upper-flex-sm
-{ padding-top:2%;
-  display:block;
-}
+  .sec-1-logo {
+    display: none;
+  }
 
-.lower-flex-sm
-{ padding-top:2%;
-  display:block;
-}
+  .upper-flex-sm {
+    padding-top: 2%;
+    display: block;
+  }
 
-  .upper-flex
-{
-  display:none;
-}
+  .lower-flex-sm {
+    padding-top: 2%;
+    display: block;
+  }
 
-.lower-flex
-{
-  display:none;
-}
+  .upper-flex {
+    display: none;
+  }
+
+  .lower-flex {
+    display: none;
+  }
 
   .tnw2020-2 {
     display: none;
@@ -506,7 +533,6 @@ img {
   .section-3-top {
     flex-direction: column;
     display: block;
-   
   }
 
   .sec-3-top-parts {
@@ -521,7 +547,7 @@ img {
   .section-3-bottom {
     margin-top: 40%;
     flex-direction: column;
-    margin-top:5%;
+    margin-top: 5%;
   }
 
   .section-4 {
@@ -594,40 +620,34 @@ img {
     padding-top: 0;
   }
 
-  .upper-flex-sm
-{ padding-top:2%;
-  display:block;
-}
+  .upper-flex-sm {
+    padding-top: 2%;
+    display: block;
+  }
 
-.lower-flex-sm
-{ padding-top:2%;
-  display:block;
-}
+  .lower-flex-sm {
+    padding-top: 2%;
+    display: block;
+  }
 
-  .upper-flex
-{
-  display:none;
-}
-
-.lower-flex
-{
-  display:none;
-}
-
- .tnw2020-2 {
+  .upper-flex {
     display: none;
   }
 
- .tnw2020-3 {
-    display: block;
+  .lower-flex {
+    display: none;
+  }
+
+  .sec-1-logo {
+    display: none;
   }
 
   .no-disp {
     display: none;
   }
 
-  .section-7{
-    padding-top:25%;
+  .section-7 {
+    padding-top: 25%;
   }
 
   .sec-2-grid {
@@ -661,7 +681,7 @@ img {
   .section-3-top {
     flex-direction: column;
     display: block;
-    margin-bottom:-45%;
+    margin-bottom: -45%;
   }
 
   .sec-3-top-parts {
